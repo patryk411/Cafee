@@ -1,0 +1,31 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$heading: #262626;
+$text: #656565;
+$price: #777;
+$btn: #be9c79;
+
+.section-head {
+    font-size: 4.5em;
+    font-family: $marcelus;
+    color: $heading;
+    letter-spacing: 2px;
+}
+
+.section-img {
+    margin: 13px 0 22px;
+}
+
+.section-text {
+    color: $heading;
+    font-family: $open;
+    font-size: 1.8em;
+    font-weight: 300;
+    line-height: 1.55em;
+    text-align: center;
+}
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;

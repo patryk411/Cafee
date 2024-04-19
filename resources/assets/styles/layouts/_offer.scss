@@ -1,0 +1,45 @@
+&__offer {
+    background-color: #fff;
+    padding-top: 120px;
+
+    &__content {
+        text-align: center;
+    }    
+    
+    
+    &__menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 73px 0 49px;
+    }
+    
+    &__menu-box {
+        padding: 0 40px 74px;
+        
+        &--title {
+            font-size: 2em;
+            color: $heading;
+            font-family: $marcelus;
+            margin-top: 23px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        
+        &--text {
+            font-size: 1.5em;
+            margin-top: 6px;
+            font-family: $open;
+            font-weight: 300;
+            color: $text;
+        }
+    }
+}
+
+&__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
